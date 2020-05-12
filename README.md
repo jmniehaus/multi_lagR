@@ -1,10 +1,10 @@
 # Multiple Time-Series or TSCS Lags of a Variable in R
 
-> This repository includes R scripts that allow the user to create multiple lags of a variable contained in their dataframe in R. This can be done sequentially (e.g., all lags up to and including 3), or with broken lags (e.g., lags 1 and 3, but not 2). Moreover, the user can specify whether they want their original dataframe returned with the new variables appended, or a a new dataframe returned with only the new variables. 
+This repository includes R scripts that allow the user to create multiple lags of a variable contained in their dataframe in R. This can be done sequentially (e.g., all lags up to and including 3), or with broken lags (e.g., lags 1 and 3, but not 2). Moreover, the user can specify whether they want their original dataframe returned with the new variables appended, or a a new dataframe returned with only the new variables. 
 
-> In addition to the above, users have the option to check for repeated observations within panels, alter the name of the new variable(s) they generate, and have the function sort their data prior to lagging it. 
+In addition to the above, users have the option to check for repeated observations within panels, alter the name of the new variable(s) they generate, and have the function sort their data prior to lagging it. 
 
-> If you find inefficiencies or errors, please email me. 
+If you find inefficiencies or errors, please email me. 
 
 ## Function Arguments
 - `data` -- A dataframe containing the data to be lagged, the time variable, and if panel lags are desired, a spatial/grouping variable.
